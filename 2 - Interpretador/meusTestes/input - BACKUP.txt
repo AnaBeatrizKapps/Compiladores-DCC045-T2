@@ -1,0 +1,66 @@
+{-
+/******************************************************
+* Trabalho de Teoria dos Compiladores(DCC045) *
+*                                                     *
+* Grupo
+
+Nome: Ana Beatriz Kapps dos Reis
+Matrícula: 201835006
+
+Nome: Marluce Aparecida Vitor
+Matrícula: 201935500
+ *
+******************************************************/
+-}
+data Racional {
+	numerador :: Int,
+	denominador :: Int,
+}
+
+main(){
+
+  test(2, 20, 30);
+  test2(true, false, 300) < t >;
+
+  print t;
+
+  x = 2;
+  y = 10;
+  print 5 + 5 * x;
+  print x + y;
+
+  if (50 != 100){
+    a = 10;
+    b = 30;
+    print a + b;
+  }
+    
+  if (10 == 11)
+    print 2000;
+  else
+    print 1000;
+
+  iterate (3){
+    print 7;
+  }
+    
+}
+
+test(num :: Int, num2 :: Int, num3 :: Int){
+  x = 5 * num;
+  print x;
+  print num2;
+  print num3;
+}
+
+test2(verTrue :: Bool, verFalse :: Bool, num3 :: Int) : Int {
+  if (verTrue){
+    print true;
+  }
+  if (verFalse){
+    print false;
+  }
+
+  return 123;
+  
+}
