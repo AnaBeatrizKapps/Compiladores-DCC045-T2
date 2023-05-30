@@ -17,6 +17,7 @@ import lang.parser.*;
 import lang.visitors.*;
 import lang.ast.*;
 
+
 public class LangCompiler{
    // Recupera o nome base (sem extensão) de um arquivo.
    public static void main(String[] args){

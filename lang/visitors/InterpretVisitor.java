@@ -194,7 +194,7 @@ public class InterpretVisitor extends Visitor{
             if (retMode) {
                 break;
             }
-            cmd.accept(this);
+            // cmd.accept(this);
         }
         if (debug && e.getID().equals("main")) {
             Object[] obj = env.peek().keySet().toArray();
